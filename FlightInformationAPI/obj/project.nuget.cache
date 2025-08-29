@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "R0QEG1KtFno=",
+  "success": false,
+  "projectFilePath": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.OpenApi (>= 8.0.19)' for 'net8.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.6.2)' for 'net8.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "1T7bZyt38BU=",
+  "success": false,
+  "projectFilePath": "C:\\ctali\\flight\\FlightInformationAPI.Tests\\FlightInformationAPI.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'coverlet.collector (>= 6.0.0)' for 'net8.0'.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NET.Test.Sdk (>= 17.8.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'xunit (>= 2.5.3)' for 'net8.0'.",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'xunit.runner.visualstudio (>= 2.5.3)' for 'net8.0'.",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.OpenApi (>= 8.0.19)' for 'net8.0'.",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.6.2)' for 'net8.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
