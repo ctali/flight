@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using FlightInformationAPI.Data; 
 using FlightInformationAPI.Models;
+using FlightInformationAPI.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,12 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<FlightContext>();
+    DataSeeder.Initialize(context);
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -23,6 +29,8 @@ if (app.Environment.IsDevelopment())
 app.MapControllers();
 
 app.UseHttpsRedirection();
+
+
 
 var summaries = new[]
 {

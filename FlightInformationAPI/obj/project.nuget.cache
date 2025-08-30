@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTIAERQT3Kg=",
+  "dgSpecHash": "FaRb2BeUpRU=",
   "success": true,
-  "projectFilePath": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
+  "projectFilePath": "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shejal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.19\\microsoft.aspnetcore.openapi.8.0.19.nupkg.sha512",
     "C:\\Users\\shejal\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

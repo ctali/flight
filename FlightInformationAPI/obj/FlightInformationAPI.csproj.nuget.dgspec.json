@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj": {}
+    "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj": {}
   },
   "projects": {
-    "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj": {
+    "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
+        "projectUniqueName": "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj",
         "projectName": "FlightInformationAPI",
-        "projectPath": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
+        "projectPath": "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj",
         "packagesPath": "C:\\Users\\shejal\\.nuget\\packages\\",
-        "outputPath": "C:\\ctali\\flight\\FlightInformationAPI\\obj\\",
+        "outputPath": "C:\\ctali\\flight\\flightinformationapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shejal\\AppData\\Roaming\\NuGet\\NuGet.Config"
