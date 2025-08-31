@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MGCUWCO9ss4=",
+  "dgSpecHash": "0M0Qfa2IeEk=",
   "success": true,
-  "projectFilePath": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
+  "projectFilePath": "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shejal\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\shejal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.19\\microsoft.aspnetcore.openapi.8.0.19.nupkg.sha512",
