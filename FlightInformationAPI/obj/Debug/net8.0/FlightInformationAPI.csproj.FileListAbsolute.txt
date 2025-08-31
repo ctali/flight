@@ -35,3 +35,10 @@ C:\ctali\flight\FlightInformationAPI\obj\Debug\net8.0\refint\FlightInformationAP
 C:\ctali\flight\FlightInformationAPI\obj\Debug\net8.0\FlightInformationAPI.pdb
 C:\ctali\flight\FlightInformationAPI\obj\Debug\net8.0\FlightInformationAPI.genruntimeconfig.cache
 C:\ctali\flight\FlightInformationAPI\obj\Debug\net8.0\ref\FlightInformationAPI.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\Castle.Core.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\Moq.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\Moq.EntityFrameworkCore.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\xunit.abstractions.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\xunit.assert.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\xunit.core.dll
+C:\ctali\flight\FlightInformationAPI\bin\Debug\net8.0\xunit.execution.dotnet.dll

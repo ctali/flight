@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj": {}
+    "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj": {}
   },
   "projects": {
-    "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj": {
+    "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj",
+        "projectUniqueName": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
         "projectName": "FlightInformationAPI",
-        "projectPath": "C:\\ctali\\flight\\flightinformationapi\\FlightInformationAPI.csproj",
+        "projectPath": "C:\\ctali\\flight\\FlightInformationAPI\\FlightInformationAPI.csproj",
         "packagesPath": "C:\\Users\\shejal\\.nuget\\packages\\",
-        "outputPath": "C:\\ctali\\flight\\flightinformationapi\\obj\\",
+        "outputPath": "C:\\ctali\\flight\\FlightInformationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shejal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MOq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.19, )"
@@ -51,9 +55,17 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Moq.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
             }
           },
           "imports": [

@@ -22,6 +22,7 @@ namespace FlightInformationAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Flight>>> GetFlights()
         {
+            _logger.LogInformation("Getting all flights");
             return await _context.Flights.ToListAsync();
         }
 
@@ -29,10 +30,12 @@ namespace FlightInformationAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Flight>> GetFlight(int id)
         {
+            _logger.LogInformation("Getting flight with ID: {FlightId}", id);
             var flight = await _context.Flights.FindAsync(id);
 
             if (flight == null)
             {
+                _logger.LogWarning("{FlightId} not found", id);
                 return NotFound();
             }
 
