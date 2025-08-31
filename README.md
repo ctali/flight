@@ -1,6 +1,10 @@
 # Flight Information API
 
-A RESTful API for managing flight information built with .NET 8 and Entity Framework Core.
+A RESTful API for managing flight information built with .NET 8 and Entity Framemework Core
+.NET 8
+Entity Framework Core
+Swagger/OpenAPI
+xUnit (testing)
 
 ## Quick Start
 
@@ -36,8 +40,21 @@ startDate (DateTime)
 endDate (DateTime)
 status (Enum: 0-4)
 
-Technologies
+## Testing
+Run the test suite with bash command:
+dotnet test  
+
+## Technologies
 .NET 8
 Entity Framework Core
 Swagger/OpenAPI
-xUnit (testing)
+xUnit
+
+
+## Features
+Full CRUD operations
+Advanced search
+In-memory database
+Input validation
+Comprehensive logging
+Error handling
